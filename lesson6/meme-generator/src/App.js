@@ -6,25 +6,30 @@ import Form from './components/Form';
 // import Signup from './components/Signup';
 import Ternary from './components/Ternary';
 import UseEffect from './components/UseEffect';
+import MUI from './components/MUI';
+import Input from './components/Input';
 
 
 function App() {
   return (
     <div className="App">
-       {/**  
+      {/**  
         * 
-         
-          <Counter />
-         
-         
            <Counter />
            <Form />
            <Signup />
-            <Ternary />
-             <UseEffect />
+           <Ternary />
+           <UseEffect />
+ 
+      
+      <MUI />
+       <Input type="password" label="Password label only"/>
         */}
-        <Navbar />
-        <Meme />  
+
+      <Navbar />
+      <main className='main'>
+        <Meme />
+      </main>
 
     </div>
   );
